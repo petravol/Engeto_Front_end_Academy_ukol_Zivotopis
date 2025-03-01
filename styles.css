@@ -74,3 +74,8 @@ table {
 thead:hover {
   background-color: #e0e0e0;
 }
+
+.dovednosti-table {
+  border-collapse: collapse;
+  border-color: rgb(138, 137, 137);
+}
