@@ -21,7 +21,7 @@ img {
   border: 2px ridge var(--barva-zvyrazneni);
 }
 
-.osobni-info {
+.personal-info {
   margin: 10px auto;
   padding: 10px;
   box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.1);
@@ -31,20 +31,20 @@ img {
 }
 
 .email,
-.odkaz {
+.link {
   color: rgb(59, 59, 139);
   text-decoration: underline;
 }
 
 .email:hover,
-.odkaz:hover {
+.link:hover {
   text-decoration: none;
   color: red;
 }
 
-.profesni-zkusenosti,
-.vzdelani,
-.dovednosti {
+.professional-xp,
+.education,
+.competences {
   margin: 10px auto;
   padding: 10px;
   box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.1);
@@ -63,11 +63,11 @@ table {
   border: solid var(--barva-zvyrazneni) 0.7px;
 }
 
-.dovednosti td {
+.competences td {
   border: 1px solid grey;
 }
 
-.dovednosti thead {
+.competences thead {
   background-color: var(--barva-celeho-pozadi);
 }
 
@@ -75,7 +75,7 @@ thead:hover {
   background-color: #e0e0e0;
 }
 
-.dovednosti-table {
+.competences-table {
   border-collapse: collapse;
   border-color: rgb(138, 137, 137);
 }
